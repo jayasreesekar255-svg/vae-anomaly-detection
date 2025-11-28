@@ -1,0 +1,26 @@
+vae-anomaly-detection/
+│
+├── README.md
+├── requirements.txt
+│
+├── data/
+│   └── generate_dataset.py
+│
+├── models/
+│   └── vae.py
+│
+├── training/
+│   ├── train.py
+│   └── sweep_beta.py
+│
+├── evaluation/
+│   └── evaluate.py
+│
+├── utils/
+│   ├── metrics.py
+│   └── dataloaders.py
+│
+├── report/
+│   └── project_report.md
+│
+└── main.py
